@@ -172,4 +172,4 @@ Existen dos tipos de importaciones que son:
 
 
 # ESTE VIDEO ME ESTA ENSEÑANDO REACT JS ACTUALMENTE
-https://www.youtube.com/watch?v=6Jfk8ic3KVk     Time MIN:02:49:18
+https://www.youtube.com/watch?v=6Jfk8ic3KVk     Time MIN:02:49:18    03:52:54

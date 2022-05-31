@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,
+body{
+    font-size: 18px;
+    background-color: rgb(11, 8, 39);
+    scroll-behavior: smooth;
+}
+
+.titulo_testimonio{
+    text-align: center;
+    color:white;
+}
+.contenedor-principal{
+    width: 100%;
+    max-width: 1100px;
+    padding: 10px 0px;
+    background: rgb(143, 61, 61);
+    margin: auto;
+}
+

@@ -1,0 +1,57 @@
+.container{
+    width: 100%;
+    padding: 0px 0px;
+    background: rgb(18, 16, 49);
+}
+.container .container_Title{
+    text-align: center;
+    color: rgb(186, 249, 25);
+    font-family: oswald;
+}
+
+.container .container_Subtitle{
+    text-align: center;
+    color: rgb(209, 209, 209);
+    font-size: oswald;
+}
+
+.container .container_contBox{
+    width: 100%;
+    padding: 10px 0px;
+    background: brown;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.container .container_contBox_box{
+    width: 250px;
+    height: 330px;
+    padding: 10px 0px;
+    background: rgb(11, 26, 58);
+}
+.container .container_contBox_box_title{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    text-transform: uppercase;
+    animation-name: mover;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-timing-function: ease;
+}
+@keyframes mover {
+    from{
+       transform: translate(0px,0px);
+    }to{
+        transform: translate(30px,20px);
+
+    }
+}
+.container_contBox_box_image{
+    margin-top: 10px;
+    width: 100%;
+    height: 250px;
+    background: green;
+}

@@ -1,9 +1,22 @@
 //import logo from './logo.svg';
 import './App.css';
+import {Header} from './components/Header'
 import {Testimonios} from './components/Testimonios';
 import {Nuevo} from './components/Nuevo';
+import {Boton} from './components/Boton';
+
 
 function App() {
+
+  const manejarClick = ()=>{
+    console.log("Click")
+  }
+
+  const reiniciarContador = ()=>{
+    console.log("Reiniciar")
+  }
+
+
   return (
     <div className="App">
       <div className='contenedor-principal'>
@@ -67,6 +80,22 @@ function App() {
          image2 = "img5"
          image3 = "img3"
         />
+
+        <Header
+        item1 = "Casa"
+        item2 = "Moto"
+        item3 = "carro"
+        item4 = "barco"
+        imagen = "img6"/>
+
+        <Boton
+        texto = "click"
+        esBotonDeClick = {true}
+        manejarClick = {manejarClick}/>
+        <Boton
+        texto = "reiniciar"
+        esBotonDeClick = {false}
+        manejarClick = {reiniciarContador}/>
       </div>
     </div>
   );

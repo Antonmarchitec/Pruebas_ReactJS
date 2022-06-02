@@ -1,8 +1,8 @@
 
 .contenedor-testimonio{
-    width:1000px;
+    width:100%;
     padding: 20px;
-    background: rgb(164, 164, 164);
+    background: rgb(43, 18, 18);
     margin: 50px auto;
     display: flex;
     flex-direction: row;

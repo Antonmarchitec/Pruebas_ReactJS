@@ -3,24 +3,16 @@ import './App.css';
 import {Header} from './components/Header'
 import {Testimonios} from './components/Testimonios';
 import {Nuevo} from './components/Nuevo';
-import {Boton} from './components/Boton';
+
 
 
 function App() {
-
-  const manejarClick = ()=>{
-    console.log("Click")
-  }
-
-  const reiniciarContador = ()=>{
-    console.log("Reiniciar")
-  }
-
 
   return (
     <div className="App">
       <div className='contenedor-principal'>
         <h1 className='titulo_testimonio'>Bienvenidos al bloque</h1>
+        
         <Testimonios
           nombre= "Emma Bostian"
           pais = "Suecia"
@@ -88,14 +80,7 @@ function App() {
         item4 = "barco"
         imagen = "img6"/>
 
-        <Boton
-        texto = "click"
-        esBotonDeClick = {true}
-        manejarClick = {manejarClick}/>
-        <Boton
-        texto = "reiniciar"
-        esBotonDeClick = {false}
-        manejarClick = {reiniciarContador}/>
+        
       </div>
     </div>
   );
